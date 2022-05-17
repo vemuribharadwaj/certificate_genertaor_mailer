@@ -22,7 +22,7 @@ s = smtplib.SMTP('smtp.gmail.com', 587)#for gmail client
 # start TLS for security #find TLS 
 s.starttls() 
 # Authentication 
-s.login("dummydoop85@gmail.com","12345@dD")#Enter your Password Here 
+s.login("dummydoop85@gmail.com","12345@##")#Enter your Password Here 
 
 for i in range(rows):
     fileLocation = df.loc[i].CERTIFICATE_LOCAATION #Place the location of the file you want to send as an attachment
